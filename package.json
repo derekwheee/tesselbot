@@ -1,0 +1,17 @@
+{
+  "name": "tesselbot",
+  "version": "0.1.0",
+  "description": "A tessel thing",
+  "main": "ble.js",
+  "dependencies": {},
+  "devDependencies": {
+    "ble-ble113a": "^0.1.12",
+    "bleno": "^0.1.8",
+    "noble": "^0.3.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Derek Wheelden",
+  "license": "MIT"
+}
