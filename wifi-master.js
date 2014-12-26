@@ -53,11 +53,11 @@ function configureWifi(err, characteristics) {
     var networkChar  = characteristics[0],
         passwordChar = characteristics[1];
 
-    networkChar.write(new Buffer('BIGBEEFNCHEDDAR'), false, function () {
+    networkChar.write(new Buffer('NETWORKSSID'), false, function () {
         if (err) console.log('Something\'s gone wrong.');
     });
 
-    passwordChar.write(new Buffer('saultinkybutt'), false, function () {
+    passwordChar.write(new Buffer('NETWORKPASS'), false, function () {
         if (err) console.log('Something\'s gone wrong.');
     });
 
