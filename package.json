@@ -7,7 +7,8 @@
   "devDependencies": {
     "ble-ble113a": "^0.1.12",
     "bleno": "^0.1.8",
-    "noble": "^0.3.6"
+    "noble": "^0.3.6",
+    "rfid-pn532": "^0.1.7"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
